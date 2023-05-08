@@ -123,15 +123,15 @@ function showSlides(n) {
 }
 
 //global call btn
-    const callBtn = document.createElement('a')
-    callBtn.innerHTML = ' <i class="fa-solid fa-phone"></i>'
-    callBtn.href = 'tel:48000082'
-    callBtn.setAttribute('class','g-call')
-    document.querySelector('body').appendChild(callBtn)
-    let btnClasses = callBtn.classList
-    setInterval(()=>{
-        btnClasses.toggle('pulse')
-},2500)
+//     const callBtn = document.createElement('a')
+//     callBtn.innerHTML = ' <i class="fa-solid fa-phone"></i>'
+//     callBtn.href = 'tel:48000082'
+//     callBtn.setAttribute('class','g-call')
+//     document.querySelector('body').appendChild(callBtn)
+//     let btnClasses = callBtn.classList
+//     setInterval(()=>{
+//         btnClasses.toggle('pulse')
+// },2500)
 //new tour
 
 function removeActive(){
