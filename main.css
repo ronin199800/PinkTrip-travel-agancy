@@ -409,7 +409,6 @@ section.search>button:hover{
     position: absolute;
     z-index: -1;
     opacity: .15;
-    transform: scale(1.3);
     top: 20px;
 
 }
