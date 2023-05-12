@@ -94,7 +94,7 @@ html{
     font-size: var(--font-size);
     font-family: var(--primary-font);
     color: var(--text-primary);
-    overflow: hidden !important;
+
 }
 *{
     box-sizing: border-box;
@@ -104,6 +104,7 @@ html{
 body{
     margin: 0;
     background-color: #f5f6fa;
+    overflow: hidden !important;
     line-height: 1.6;
 }
 ul{
