@@ -99,13 +99,12 @@ html{
 *{
     box-sizing: border-box;
     font-family: var(--primary-font);
-    /* overflow: auto; */
 }
 body{
     margin: 0;
     background-color: #f5f6fa;
-    overflow: hidden !important;
     line-height: 1.6;
+    overflow-x: hidden;
 }
 ul{
     list-style: none;
@@ -1564,7 +1563,9 @@ footer button{
 @media screen and (max-width:576px) {
     .new-tour-container .tour-head > span{
         padding: .5rem .9rem !important;
+        font-size: .9rem;
     }
+    
 }
 
 
